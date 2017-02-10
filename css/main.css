@@ -1308,3 +1308,157 @@
     display: block;
     margin: 0 auto;
 }
+
+/*商品评价*/
+.comment_title{
+    line-height: 38px;
+    height: 38px;
+    font-size: 14px;
+    color: #656565;
+    padding-left: 10px;
+}
+
+.score_box{
+    padding-left: 10px;
+    height: 120px;
+}
+.score{
+    font-family: "Microsoft YaHei UI", "微软雅黑";
+    float: left;
+    margin-right: 10px;
+}
+.score em{
+    font-size: 18px;
+    color: #65657d;
+    font-style: normal;
+}
+
+.score span{
+    font-size: 50px;
+    color: #ff8f00;
+}
+
+.score_degree{
+    float: left;
+    width: 450px;
+
+    line-height: 16px;
+    font-size: 12px;
+    margin-top: 12px;
+    position: relative;
+}
+.score_degree_text{
+    background-color: #bdbdbd;
+    height: 16px;
+    overflow: hidden;
+    color: white;
+    margin-bottom: 10px;
+}
+.score_degree_text li{
+    float: left;
+    width:90px;
+    text-indent: 18px;
+}
+
+.score_num{
+    position: absolute;
+    left: 80%;
+    top:-30px;
+    text-align: center;
+    width: 70px;
+    height: 20px;
+    background: url("../img/icon/score_icon.png") center center no-repeat;
+    color: white;
+
+}
+
+/*评价切换*/
+.review_tab{
+    height: 32px;
+    background-color: #f2f2f2;
+}
+.review{
+    line-height: 32px;
+    height: 100%;
+    padding-left: 20px;
+}
+.review li{
+    float: left;
+    height: 100%;
+    margin-right: 40px;
+}
+
+.review li a{
+    display: inline-block;
+    height: 30px;
+    padding: 0 5px;
+    line-height: 30px;
+}
+
+.review .active{
+    color: #317de6;
+    font-weight: bold;
+    border-bottom: #317de6 solid 2px;
+    margin-bottom: -2px;
+    position: relative;
+}
+
+.review_sort{
+    padding: 5px;
+}
+.review_sort a{
+    display: inline-block;
+    line-height: 20px;
+    height: 20px;
+    border: #ccc solid 1px;
+    padding:0 20px 0 6px;
+    background: url("../img/icon/sort_icon.png") 58px center no-repeat;
+}
+
+
+.review_userHead{
+    width: 170px;
+
+}
+.review_user{
+    width: 60px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.review_list{
+    padding-top: 18px;
+    margin-bottom: 10px;
+}
+.review_user img{
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+.review_user p{
+    line-height: 20px;
+}
+
+.review_content{
+    padding-left: 170px;
+}
+
+.stars_text{
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.starsBox .stars{
+    margin-top: 1px;
+}
+.review_t{
+    height: 24px;
+    padding-top: 5px;
+}
+.review_content p{
+    line-height: 30px;
+}
+
+.review_page{
+    margin: 10px auto;
+}
